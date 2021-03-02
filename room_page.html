@@ -1,0 +1,33 @@
+<html>
+    <title>Lets Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="room_page.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <button class="btn btn-danger ghylphon ghylphon-logout" onclick="logout()">Logout</button>
+    <center>
+        <sup>
+            <h1>
+                Lets Chat
+            </h1>
+            <img src="m2.png">
+        </sup>
+
+        <div id="output"></div>
+    </center>
+    <hr>
+    <center>
+        <div class="col-lg-3 col-md-3 colsm-6 col-xs-11">
+            <h1>Send : </h1>
+            <input id="message" type="text" placeholder="Massege">
+            <button class="btn btn-success" onclick="send()">Send</button>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Lets Chat</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="second_page.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<button class="btn btn-danger" onclick="logout()">Logout</button>
+		<center>
+			<lable>"Lets Chat"</lable>
+			<div id="room_name_div">
+				<h2>Room Name: </h2>
+				<br>
+				<br>
+				<input class="form-control" id="room_name" type="text" placeholder="Room Name">
+				<br>
+				<button class="btn btn-success" onclick="add_room()">Add Room Page</button>
+				<br>
+				<div id="output"></div>
+			</div>
+		</center>
+	</body>
+</html>
